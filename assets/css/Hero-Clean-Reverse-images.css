@@ -1,0 +1,16 @@
+.fit-cover {
+  object-fit: cover;
+}
+
+.type_heading h1 {
+}
+
+h1 .type_heading {
+  background: rgba(0,0,0,0.1);
+  text-shadow: 0px 0px 11px rgba(33,37,41,0.48);
+}
+
+.unique_paragraph {
+  padding: 0 40px;
+}
+

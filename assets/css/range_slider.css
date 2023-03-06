@@ -1,0 +1,98 @@
+input[type=range] {
+  width: 100%;
+  margin: 11px 0;
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  /*background: #f5f5f5;*/
+  background-image: linear-gradient(#ccc, #eee);
+  border: 0.5px solid rgb(200,199,199);
+  border-radius: 8px;
+  width: 100%;
+  height: 18px;
+  cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  margin-top: -11.5px;
+  width: 40px;
+  height: 40px;
+  background: #dcdcdc;
+  border: 0.5px solid #bcbcbc;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  background-image: linear-gradient(#eee, #ccc);
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  /*background: #ffffff;*/
+  background-image: linear-gradient(#ccc, #eee);
+}
+
+input[type=range]::-moz-range-track {
+  background: #f5f5f5;
+  border: 0.5px solid rgba(1, 1, 1, 0.5);
+  border-radius: 8px;
+  width: 100%;
+  height: 18px;
+  cursor: pointer;
+}
+
+input[type=range]::-moz-range-thumb {
+  width: 40px;
+  height: 40px;
+  background: #dcdcdc;
+  border: 0.5px solid #aaaaaa;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+  background: transparent;
+  border-color: transparent;
+  border-width: 12px 0;
+  color: transparent;
+  width: 100%;
+  height: 18px;
+  cursor: pointer;
+}
+
+input[type=range]::-ms-fill-lower {
+  background: #ebebeb;
+  border: 0.5px solid rgba(1, 1, 1, 0.5);
+  border-radius: 16px;
+}
+
+input[type=range]::-ms-fill-upper {
+  background: #f5f5f5;
+  border: 0.5px solid rgba(1, 1, 1, 0.5);
+  border-radius: 16px;
+}
+
+input[type=range]::-ms-thumb {
+  width: 40px;
+  height: 40px;
+  background: #dcdcdc;
+  border: 0.5px solid #aaaaaa;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 0px;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+  background: #f5f5f5;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+  background: #ffffff;
+}
+
+/* TODO: Use one of the selectors from https://stackoverflow.com/a/20541859/7077589 and figure outhow to remove the virtical space around the range input in IE */
+

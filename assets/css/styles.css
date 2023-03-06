@@ -1,0 +1,50 @@
+.lobster {
+  font-family: Lobster;
+}
+
+.usp_rows .col, .usp_rows .col-xl-8 {
+  margin: 20px 0;
+}
+
+.headings h1, .headings h2, .headings h3 {
+  text-align: center;
+  font-weight: bold;
+  padding: 30px 0;
+}
+
+.headers {
+  padding: 30px 0px 20px 0px;
+  text-align: center;
+}
+
+.type_heading h1 {
+  background: rgba(0,0,0,0.1);
+  text-shadow: 0px 0px 11px rgba(33,37,41,0.48);
+}
+
+.type_heading_image {
+  text-align: center;
+  background: rgba(0,0,0,0.1);
+  text-shadow: 0px 0px 11px rgba(33,37,41,0.48);
+  font-size: 70px;
+  padding: 40px 0;
+}
+
+.info_containers {
+  margin-top: 60px;
+}
+
+.type_heading_text {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.type_heading_text h1 {
+  font-weight: bold;
+  margin: 0;
+}
+
+.type_heading_text p {
+  color: rgba(140,140,140);
+}
+
