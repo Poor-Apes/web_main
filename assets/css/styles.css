@@ -2,6 +2,20 @@
   font-family: Lobster;
 }
 
+#3d-card {
+  width: 100%;
+  height: 100%;
+}
+
+.progress {
+  font-size: 32px;
+  height: 72px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
 .usp_rows .col, .usp_rows .col-xl-8 {
   margin: 20px 0;
 }
@@ -46,5 +60,29 @@
 
 .type_heading_text p {
   color: rgba(140,140,140);
+}
+
+.season p:first-of-type {
+  color: grey !important;
+}
+
+.season-stats .main-row {
+  padding-bottom: 20px;
+}
+
+.season-stats .chicago {
+  background-color: #fd7e14;
+}
+
+.season-stats .nyc {
+  background-color: #20c997;
+}
+
+.season-stats .detroit {
+  background-color: #0dcaf0;
+}
+
+.season-stats .chicago, .season-stats .nyc, .season-stats .detroit {
+  border-radius: 15px;
 }
 
